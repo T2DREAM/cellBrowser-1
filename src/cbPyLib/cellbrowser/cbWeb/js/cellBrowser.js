@@ -4550,7 +4550,7 @@ var cellbrowser = function() {
             pal = makeHslPalette(0.0, n);
         else {
             if (n===2)
-                pal = ["FF0000","0000FF"];
+                pal = ["E0E0E0","0000FF"];
             else {
                 var realPalName = palName.replace("tol-sq-blue", "tol-sq");
                 pal = palette(realPalName, n);
